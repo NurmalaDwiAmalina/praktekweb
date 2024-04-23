@@ -6,7 +6,7 @@
 
 (() => {
     'use strict'
-  
+    //komentar
     const getStoredTheme = () => localStorage.getItem('theme')
     const setStoredTheme = theme => localStorage.setItem('theme', theme)
   

@@ -2,6 +2,7 @@
 session_start();
 $email = $_POST['email'];
 $password = $_POST['password'];
+$Umur = $_POST ['umur'];
 if($email == "idris@usm.ac.id" && $password == "123"){
     // echo "<b>Login Berhasil</b>";
     $_SESSION['login'] = true;
